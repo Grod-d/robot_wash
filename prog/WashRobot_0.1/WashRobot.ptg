@@ -1,0 +1,9 @@
+Class,Identifiers,Address,Type,Initial Value,Comment
+VAR,bEmrgs,M6001,BOOL,FALSE,Аппаратная авария.
+VAR,bsOperatingMode,M6002,BOOL,FALSE,Выбор режима работы. 0 - ручной (транспортировка); 1 - автоматический
+VAR,bsSetAuto,M6003,BOOL,FALSE,Установка автоматического режима.
+VAR,bAutoMode,M6004,BOOL,FALSE,Запуск автоматического режима
+VAR,diStep,X0.0,BOOL,,Датчик шага звездочки
+VAR,countCurrent,C0,COUNTER,,Текущий счетчик.
+VAR,bMovementPermission,M6005,BOOL,,Рарешение движения
+VAR,bAlarmsReset,M6006,BOOL,,Сброс аварий
